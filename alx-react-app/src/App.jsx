@@ -1,5 +1,4 @@
-cat > src/App.jsx << 'EOF'
-import WelcomeMessage from './components/WelcomeMessage.jsx';
+import WelcomeMessage from './components/WelcomeMessage';
 
 function App() {
   return (
