@@ -1,7 +1,9 @@
-import UserInfo from './UserInfo';
+import ProfilePage from './ProfilePage';
 
-function ProfilePage() {
-  return <UserInfo />;
+function App() {
+  const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
+
+  return <ProfilePage userData={userData} />;
 }
 
-export default ProfilePage;
+export default App;
