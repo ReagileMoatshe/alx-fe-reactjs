@@ -2,7 +2,7 @@ import React from 'react';
 
 function MainContent() {
   return (
-    <div style={{ 
+    <main style={{ 
       padding: '20px', 
       backgroundColor: 'lightgray', 
       color: 'black',
@@ -11,9 +11,9 @@ function MainContent() {
       border: '1px solid #ccc'
     }}>
       <h2 style={{ textAlign: 'center', color: 'darkblue' }}>Welcome to My Favorite Cities</h2>
-      <p style={{ fontSize: '16px', lineHeight: '1.5' }}>Explore some of the most beautiful cities in the world!</p>
+      <p style={{ fontSize: '16px', lineHeight: '1.5' }}>I love to visit New York, Paris, and Tokyo.</p>
       {/* Add more content as needed */}
-    </div>
+    </main>
   );
 }
 
